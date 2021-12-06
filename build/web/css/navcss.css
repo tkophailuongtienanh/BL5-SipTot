@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 29, 2021, 2:21:10 AM
+    Author     : Admin
+*/
+
+
+.content-header{
+    width: 80vw;
+    margin: auto;
+}
+.logo{
+    height: 8vh;
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+}
+.logo img{
+    height: 100%;
+    object-fit: contain;
+}
+.nav-left{
+    height: 100%;
+    display: inline-block;
+    float: left;
+    width: 88%;
+    padding: 0;
+    margin: 0;
+}
+.nav-right{
+    display: inline-block;
+    float: right;
+    height: 8vh;
+    width: 12%;
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    background-color: rgba(39, 39, 39, 1);
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    top:0;
+    display: block;
+    transition: top 0.3s;
+}
+#accountlogo,#cartlogo,#wishlistlogo{
+    margin-top: 10px;
+    height: 60%;
+}
+nav ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    text-decoration: none;
+    color: rgb(255, 101, 195);
+    width: 10%;
+    font-size: 180%;
+    display: inline-block;
+    text-align: center;
+    line-height: 8vh;
+}
+nav ul a {
+    text-decoration: none;
+    line-height: 8vh;
+    display: block;
+    transition: .3s background-color ;
+    color: rgb(255, 101, 195);
+    padding: auto;
+    text-align: center;
+    background-color: rgba(39, 39, 39, 1)
+}
+
+nav ul a:hover {
+    background-color: grey;
+}
+/* Sub Menus */
+nav li li a{
+    font-size: 40%;
+    text-align: left;
+    line-height: 5vh;
+}
+/* Sub Menus */
+nav li ul {
+    position: absolute;
+    display: none;
+    width: 100%;
+}
+nav li:hover ul {
+    display: block;
+}
+nav li ul li {
+    display: block;
+}
+nav form{
+    position: absolute;
+    display: inline-block;
+    float: right;
+    top: 10px;
+    right: 40vh;
+    margin-right: 0;
+    padding-right: 0;
+}
+nav form button{
+    height: 5vh;
+    background: transparent;
+    border: 0;padding: 0;
+}
+nav form button img{
+    vertical-align: middle;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.wsize{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 245px;
+    background: pink;
+    color: black;
+}
+.csize{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 195px;
+    background: pink;
+    color: black;
+}

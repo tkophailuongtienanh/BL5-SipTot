@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 29, 2021, 3:18:46 AM
+    Author     : Admin
+*/
+
+
+            hr{
+                width: 70%;
+                border-top: 1px solid grey;
+            }
+            .product{
+                margin-left: 2%;
+                margin-right: 2%;
+                font-style: normal;
+                display: inline-block;
+                width: 20%;
+                text-decoration: none;
+                height: 370px;
+                background: white;
+                border-radius: 20px;
+                overflow:hidden;
+                color: rgba(39, 39, 39, 1);
+            }
+            .pname{
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 120%;
+                text-overflow: ellipsis;
+                word-wrap: break-word;
+                overflow: hidden;
+                height: 2em;
+                line-height: 1em;
+                text-align: left;
+            }
+            .pprice{
+                text-align: center;
+            }
+            .ava{
+                height: 282px;
+            }
+            .ava img{
+                width: 100%; /* or any custom size */
+                height: 100%; 
+                object-fit: contain;
+            }

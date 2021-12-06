@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 25, 2021, 6:09:10 PM
+    Author     : Admin
+*/
+.body{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.product{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-style: normal;
+    display: inline-block;
+    width: 20%;
+    text-decoration: none;
+    height: 370px;
+    background: white;
+    border-radius: 20px;
+    overflow:hidden;
+}
+.pname{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 120%;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 2em;
+    line-height: 1em;
+    text-align: left;
+    border-bottom: 10px;
+    border-color: black;
+}
+.ava{
+    height: 282px;
+}
+.ava img{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+.content{
+    width: 80vw;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.6) ;
+    text-align: center;
+}
+.section{
+    display: block;
+    opacity: 2;
+}
+hr{
+    width: 70%;
+    border-top: 1px solid grey;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+body {
+    padding-left: 10vw;
+    background-image: url("../images/page/banner/back.jpg");
+    min-height: 100vh;
+}
+footer{
+    background: dark;
+    height: 50vh;
+    position: relative;
+    margin-top: -200px;
+}
+#myBtn img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: orange; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 50%; /* Rounded corners */
+    height: 50px;
+    width: 50px;
+    transition: width 0.25s, height 0.25s;
+    overflow: hidden;
+}
+#myBtn:hover {
+    width: 55px;
+    height: 55px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
